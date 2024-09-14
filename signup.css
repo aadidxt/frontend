@@ -1,0 +1,51 @@
+* {
+    align-items: center;
+    margin: auto;
+}
+
+.form {
+    margin-top: 50px;
+    height: 600px;
+    width: 450px;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #94cfef;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.681);
+}
+
+.form:hover {
+    box-shadow: 10px 10px 10px 10px palevioletred;
+}
+
+.signup_head {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.name, .contact, .email, .pass, .confirm_pass {
+    padding: 15px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #FFE5CF;
+    width: 120px;
+    box-shadow: 5px 5px rgb(41, 137, 166);
+}
+
+.login {
+    padding: 20px;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    width: 75%;
+    background-color: rgb(158, 220, 237);
+    box-shadow: 5px 5px rgb(41, 137, 166);
+}
